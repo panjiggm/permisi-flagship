@@ -1,0 +1,42 @@
+/* ACCORDION */
+.faq__question {
+  @apply max-w-xl w-full border-b border-blue-100;
+}
+.faq__question-button {
+  @apply w-full flex justify-between border-none bg-transparent p-0 cursor-pointer py-5;
+}
+.faq__question-button::after {
+  content: url("/icon-arrow-down.svg");
+  margin-right: 17px;
+  transform: rotate(90deg);
+}
+.faq__question-button:hover {
+  color: #f47c57;
+}
+.faq__desc {
+  padding-right: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+}
+.show-description {
+  @apply h-auto text-gray-500 text-xs mb-4;
+}
+/* Arrows */
+/* closed */
+.faq__question-button::after {
+  transition: transform 300ms ease-out;
+}
+/* open */
+.font-weight-bold::after {
+  transform: rotate(720deg);
+  font-weight: bold;
+}
+.attribution {
+  @apply text-xs text-center text-blue-100 pt-3;
+}
+.faq__question-button:focus {
+  @apply outline-none;
+}
