@@ -6,7 +6,7 @@ import Hero from "../src/home/Hero";
 import Product from "../src/home/Product";
 import Accordion from "../src/home/Accordion";
 
-import { brands, accordions, categories } from "./product/dummyData";
+import { brands, accordions, categories } from "../src/components/dummyData";
 import { minifyRecords, table } from "./api/utils/Airtable";
 import { ProductContext } from "../src/context/ProductContext";
 

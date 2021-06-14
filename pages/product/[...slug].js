@@ -4,7 +4,7 @@ import { HomeIcon } from "@heroicons/react/outline";
 import Layout from "../../src/components/Layout";
 import ImageGallery from "react-image-gallery";
 
-import { images } from "./dummyData";
+import { images } from "../../src/components/dummyData";
 import ProductCounter from "../../src/components/product/ProductCounter";
 import ProductType from "../../src/components/product/ProductType";
 import ProductVariant from "../../src/components/product/ProductVariant";
