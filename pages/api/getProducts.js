@@ -1,6 +1,6 @@
 import { table, minifyRecords } from "./utils/Airtable";
 
-export default async () => {
+const getProduct = async () => {
   try {
     const records = await table.select({}).firstPage();
     const minifiedRecords = await minifyRecords(records);
@@ -13,3 +13,5 @@ export default async () => {
     res.json({ message: "Something went wrong!" });
   }
 };
+
+export default getProduct;
