@@ -9,7 +9,7 @@ import {
   CashIcon,
 } from "@heroicons/react/outline";
 
-const categories = [
+export const categories = [
   {
     id: 1,
     title: "Cake",
@@ -52,7 +52,7 @@ const categories = [
   },
 ];
 
-const brands = [
+export const brands = [
   {
     id: 1,
     url: "https://i.pinimg.com/originals/1a/70/56/1a7056670a96b9deee2cff48b3fc4710.png",
@@ -75,7 +75,7 @@ const brands = [
   },
 ];
 
-const accordions = [
+export const accordions = [
   {
     question: "How many team members can I invite?",
     answer:
@@ -100,7 +100,7 @@ const accordions = [
   },
 ];
 
-const images = [
+export const images = [
   {
     original: "https://picsum.photos/id/1018/1000/600/",
     thumbnail: "https://picsum.photos/id/1018/250/150/",
@@ -122,5 +122,3 @@ const images = [
     thumbnail: "https://picsum.photos/id/1000/250/150/",
   },
 ];
-
-export { categories, brands, accordions, images };
